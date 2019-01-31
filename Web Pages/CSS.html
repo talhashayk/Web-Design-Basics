@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Web Development - CSS</title>
+	<link rel="stylesheet" type="text/css" href="./StyleSheet.css" />
+</head>
+<body class="pagewidth">
+	<div>
+		<h1>CSS</h1>
+	</div>
+	<div>
+		<header class="mainheads">
+			<ul class="headings">
+				<li class="navigation"><a href="./Home.html" target="_blank">Home</a></li>
+				<li class="navigation"><a href="./HTML.html" target="_blank">HTML</a></li>
+				<li class="navigation"><a href="./CSS.html" target="_blank">CSS</a></li>
+				<li class="navigation"><a href="./JavaScript.html" target="_blank">JavaScript</a></li>
+			</ul>
+		</header>
+	</div>
+	<div class="subhead">
+		<ul class="subheadings">
+			<li class="navigation"><a href="#Introduction" target="_blank">Introduction</a></li>
+			<li class="navigation"><a href="#Hierarchy" target="_blank">Hierarchy</a></li>
+			<li class="navigation"><a href="#Colour_and_Text" target="_blank">Colour and Text</a></li>
+			<li class="navigation"><a href="#Composition" target="_blank">Composition</a></li>
+		</ul>
+	</div>
+	<div class="wrap">
+	<div id='Introduction'>
+		<h2>Introduction</h2>
+		<p>CSS is a style sheet language that is utilised along side 
+		mark-up language, generally html, in order to dictate how a 
+		web page looks, is composed and reacts. the acronym CSS stands 
+		for:</p>
+		<ul class="listed">
+				<li class="lists">C - Cascading</li>
+				<li class="lists">S - Style</li>
+				<li class="lists">S - Sheet</li>
+		</ul>
+		<p>Unlike CSS, its implementation is not so basic as it 
+		requires hierarchy-based code and each element of code will 
+		definitely be affected by other elements. As well as this the
+		functionality of CSS is rather vast and thus, contains a lot 
+		of material for a web developer to learn and gain experience 
+		with.</p>
+		<hr>
+	</div>
+	<div id='Hierarchy'>
+		<h2>Hierarchy</h2>
+		<p>The three main elements within the CSS hierarchy are tags,
+		classes and IDs. They are also present in that order with 
+		IDs being at the top of the pyramid and tags being at the 
+		bottom of it.</p>
+		<div>
+			<div>
+				<h3 class="imagecenter">Tags</h3>
+				<p>Tags refer to the elements within html themselves. 
+				It's use tends to be directed at a broader range of 
+				similar elements in order to maintain consistency  
+				throughout the web page.</p>
+			</div>
+			<img class="arrows imagecenter" src = "./Images/arrow.png" alt = "" height = 50 title = "">
+			<div>
+				<h3 class="imagecenter">Classes</h3>
+				<p>Classes tend to be utilised when grouping certain 
+				elements together in order to create a more specific 
+				aesthetic or behaviour for that respective group. it 
+				can be used in conjunction with tags however its 
+				importance is regarded to as higher and thus will take
+				precedent over tags.</p>
+			</div>
+			<img class="arrows imagecenter" src = "./Images/arrow.png" alt = "" height = 50 title = "">
+			<div>
+				<h3 class="imagecenter">IDs</h3>
+				<p>IDs aren't always used as their requirement must be 
+				absolutely necessary in order for their use. They are 
+				given the highest position within the hierarchy and are 
+				thus invoked over both tags and classes however, they 
+				too can be used in conjunction in order to apply to 
+				very specific elements and their behaviour.</p>
+			</div>
+		<hr>
+		</div>
+	</div>
+	<div id='Colour_and_Text'>
+		<h2>Colour and Text</h2>
+		<p>Colour an text tend to be the most generally related 
+		descriptors that people associate with CSS. This is due 
+		to the fact that CSS is mostly used to influence the 
+		aesthetic  of a website. The large part of a web pages 
+		aesthetic is credited to the colours and text and thus,
+		its association is not unrequited.</p>
+		<div>
+			<div>
+				<h3 class="imagecenter">Colours</h3>
+				<p>There are two manners in which colour is used. 
+				The background colour which is utilised in order 
+				to set the backing of a page or a certain devisor 
+				thus allowing the user to differentiate between 
+				elements. The other form of colour is the 
+				foreground  colour which is utilised in order to 
+				recolour text without the use of html in a manner 
+				that is more professional as the using html for 
+				this purpose is deprecated.</p>
+			</div>
+			<div>
+				<h3 class="imagecenter">Text</h3>
+				<p>Text has a lot on influence on a web page. Due 
+				to this, there are many related functions that can
+				alter text size, font, alignment  and even decorate 
+				them in some form.</p>
+			</div>
+			<div class="imagecenter">
+				<img class="examples" src = "./Images/example-page.jpg" alt = "" height = 250 title = "Example Web Page">
+				<p>An example of a colour consistent and aesthetically 
+				pleasing web page - Facebook</p>
+			</div>
+		</div>
+		<hr>
+	</div>
+	<div id='Composition'>
+		<h2>Composition</h2>
+		<p>Composition is a major factor in terms of CSS as it is 
+		what enables a web page to look as it does and thus allows, 
+		the user of the website to navigate and differentiate 
+		between the many encompassing elements.</p>
+		<img class="examples imagecenter" src = "./Images/boxmodel-image.jpg" alt = "" height = 300 title = "The Box Model">
+		<p>CSS utilises 'the box model' in order to order and place 
+		objects throughout the site as well as ensure the developer 
+		is able to correctly manipulate objects. The hierarchy that 
+		the box model follows is as such:</p>
+		<ul class="prolist imagecenter">
+			<li>Content</li>
+			<li>Padding</li>
+			<li>Border</li>
+			<li>Margin</li>
+		</ul>
+		<p>Different levels of each modifier can be added to any side 
+		of the content and thus, they can be used to relocate images 
+		and text throughout the site. As well as the box model, there 
+		are modifiers such as position and float which allow the 
+		developer to determine where the content is placed and how it 
+		behaves in relation to other content within the web page.</p>
+	</div>
+	</div>
+</body>
+</html>
